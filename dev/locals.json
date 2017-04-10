@@ -12,9 +12,31 @@
 			"url":"/",
 			"filename":"index",
 			"sections":{
-				"vision":{
+				"intro":{
 					"h1": "Real Virtual Fighting",
-					"caption": "Perfect your technique in a safe environment that perfectly matches the real experience of fighting",
+					"caption": "Perfect your technique. Sparr without injuries. Experience real fighting.",
+					"callToAction":"Contact us"
+				},
+				"vision":{
+					"h1": "Fighting a Ghost",
+					"p": [
+						"You put on specialized shoes and gloves that track your body and enter a ring. No one's there. You put on the VR helmet.",
+						"Transported into the digital world you now spot your opponent in the opposite corner. A digital representation of someone who's geared up like you, perhaps on the other side of the world",
+						"The bell rings, you circle each other, waiting for the first strike.",
+						"When it lands, it registers as a hit, but no one is injured.", "Because you're not actually hitting each other, because you're facing digital ghosts."
+					],
+					"media":[{
+						"youtube":"<iframe class='vision-youtube' src='https://www.youtube.com/embed/0nuOiNDPpl0?ecver=1' frameborder='0' allowfullscreen></iframe>",
+						"img":"http://compass.xboxlive.com/assets/0f/eb/0feb7a56-f8c1-45e1-a412-a7edf8141f4e.jpg?n=Microsoft_Hololens_1200x630.jpg"
+					}]
+				},
+				"testimonial":{
+					"h1":"We love our partners",
+					"partners":[{
+						"name":"",
+						"summary":"",
+						"logo":""
+					}],
 					"media":[{
 						"youtube":"<iframe class='vision-youtube' src='https://www.youtube.com/embed/0nuOiNDPpl0?ecver=1' frameborder='0' allowfullscreen></iframe>",
 						"img":"http://compass.xboxlive.com/assets/0f/eb/0feb7a56-f8c1-45e1-a412-a7edf8141f4e.jpg?n=Microsoft_Hololens_1200x630.jpg"
@@ -24,14 +46,6 @@
 					},{
 						"youtube":"<iframe class='vision-youtube' src='https://www.youtube.com/embed/n51DqCpqGSU?ecver=1' frameborder='0' allowfullscreen></iframe>",
 						"img":"https://cdn.arstechnica.net/wp-content/uploads/sites/3/2016/10/htc-vive-set.0.jpg"
-					}]
-				},
-				"testimonial":{
-					"h1":"We love our partners",
-					"partners":[{
-						"name":"",
-						"summary":"",
-						"logo":""
 					}]
 				}
 			}

@@ -1,9 +1,7 @@
-
-section.bg-overlay
-div
-	div
-		h1=p.sections.vision.h1
-		h2=p.sections.vision.caption
+section.content
+	h1=p.sections.vision.h1
+	for p in section.p
+		p=p
 	for media in p.sections.vision.media
 		p!=media.youtube
 		img(src=media.img)

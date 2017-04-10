@@ -1,7 +1,7 @@
 {
-  "name": "tb-project",
+  "name": "fighting-tech",
   "version": "1.0.0",
-  "description": "Website renovation for Torbjörn Karlsson's company",
+  "description": "Landing Page for Fighting Tech",
   "main": "build-script.js",
   "scripts": {
     "run": "nodemon build-script.js",
@@ -14,10 +14,11 @@
   "author": "Alexander Sopov",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/AlexanderSopov/tb-project/issues"
+    "url": "https://github.com/AlexanderSopov/fighting-tech/issues"
   },
-  "homepage": "https://github.com/AlexanderSopov/tb-project#readme",
+  "homepage": "https://github.com/AlexanderSopov/fighting-tech#readme",
   "dependencies": {
+    "http-server": "^0.9.0",
     "pug": "^2.0.0-alpha7",
     "stylus": "^0.54.5"
   },
