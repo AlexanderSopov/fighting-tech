@@ -1,0 +1,32 @@
+{
+  "name": "tb-project",
+  "version": "1.0.0",
+  "description": "Website renovation for Torbjörn Karlsson's company",
+  "main": "build-script.js",
+  "scripts": {
+    "run": "nodemon build-script.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlexanderSopov/personal-website.git"
+  },
+  "author": "Alexander Sopov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AlexanderSopov/tb-project/issues"
+  },
+  "homepage": "https://github.com/AlexanderSopov/tb-project#readme",
+  "dependencies": {
+    "pug": "^2.0.0-alpha7",
+    "stylus": "^0.54.5"
+  },
+  "devDependencies": {
+    "babel-core": "^6.18.2",
+    "babel-preset-es2015": "^6.18.0",
+    "babelify": "^7.3.0",
+    "browserify": "^13.1.1",
+    "nodemon": "^1.10.2",
+    "pug-lint": "^2.3.0"
+  }
+}

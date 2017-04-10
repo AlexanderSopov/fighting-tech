@@ -1,0 +1,27 @@
+doctype html
+html(lang="en")
+  head
+    meta(charset="utf-8")
+    meta(name="description", content=meta.description)
+    meta(name="author", content=meta.author)
+    meta(name="viewport", content="width=device-width, initial-scale=1")
+    block titleAndKeywords
+      title=meta.title
+      meta(name="keywords", content=meta.keywords)
+    style 
+      include ../../dist/css/style.css
+    script
+      include ../../dist/js/jquery-2.2.4.min.js
+      include ../../dist/js/bundle.js
+  body
+    - var p = pages.Home;
+    div#logo
+      img(src=p.logo)
+    div#body
+      div.page-section#vision-section
+        - var section = p.sections.vision;
+        include includes/vision.pug
+      div.page-section#testimonial-section
+      div.page-section#seed-call-to-action
+      div.page-section#about-history-section
+      div.page-section#call-to-action-section

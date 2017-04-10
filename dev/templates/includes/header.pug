@@ -1,0 +1,9 @@
+div.logo(onclick="script.nav.showMenu(this);")
+	img(src="img/logo.png")
+div.menu
+	each page in pages
+		div
+			if page.name == activePage
+				a.active-page(href=page.url)= page.name
+			else
+				a(href=page.url)= page.name

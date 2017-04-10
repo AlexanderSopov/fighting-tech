@@ -1,0 +1,18 @@
+{
+	"meta": {
+		"title":"Fighting Tech Website",
+		"author":"Alexander Sopov",
+		"description":"Virtual Fighting",
+		"keywords": "Fighting, Boxing, VR, Virtual-Reality, Virtual Reality, MMA, Kick Boxing"
+	},
+	"pages":{
+		"Home":{
+			"name":"Home",
+			"url":"/",
+			"filename":"index",
+			"sections":{
+				"vision":{}
+			}
+		}
+	}
+}
