@@ -5,6 +5,7 @@
 		"description":"Virtual Fighting",
 		"keywords": "Fighting, Boxing, VR, Virtual-Reality, Virtual Reality, MMA, Kick Boxing"
 	},
+	"logo":"img/logo1.PNG",
 	"pages":{
 		"Home":{
 			"name":"Home",
