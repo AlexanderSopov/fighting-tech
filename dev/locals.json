@@ -12,7 +12,28 @@
 			"url":"/",
 			"filename":"index",
 			"sections":{
-				"vision":{}
+				"vision":{
+					"h1": "Real Virtual Fighting",
+					"caption": "Perfect your technique in a safe environment that perfectly matches the real experience of fighting",
+					"media":[{
+						"youtube":"<iframe class='vision-youtube' src='https://www.youtube.com/embed/0nuOiNDPpl0?ecver=1' frameborder='0' allowfullscreen></iframe>",
+						"img":"http://compass.xboxlive.com/assets/0f/eb/0feb7a56-f8c1-45e1-a412-a7edf8141f4e.jpg?n=Microsoft_Hololens_1200x630.jpg"
+					},{
+						"youtube":"<iframe class='vision-youtube' src='https://www.youtube.com/embed/fW0KSHOR6wI?ecver=1' frameborder='0' allowfullscreen></iframe>",
+						"img":""
+					},{
+						"youtube":"<iframe class='vision-youtube' src='https://www.youtube.com/embed/n51DqCpqGSU?ecver=1' frameborder='0' allowfullscreen></iframe>",
+						"img":"https://cdn.arstechnica.net/wp-content/uploads/sites/3/2016/10/htc-vive-set.0.jpg"
+					}]
+				},
+				"testimonial":{
+					"h1":"We love our partners",
+					"partners":[{
+						"name":"",
+						"summary":"",
+						"logo":""
+					}]
+				}
 			}
 		}
 	}

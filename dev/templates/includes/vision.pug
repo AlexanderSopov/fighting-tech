@@ -1,8 +1,10 @@
 
 section.bg-overlay
 div
-  div
-    h1="Our Vision"
-    h2="Fighting a Ghost"
-    p=p.youtubeEmbed
-    div.read-more
+	div
+		h1=p.sections.vision.h1
+		h2=p.sections.vision.caption
+	for media in p.sections.vision.media
+		p!=media.youtube
+		img(src=media.img)
+	div.read-more
