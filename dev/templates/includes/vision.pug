@@ -1,7 +1,6 @@
 section.content
 	h1=p.sections.vision.h1
-	for p in section.p
+	for p in section.copy
 		p=p
 	for media in p.sections.vision.media
-		p!=media.youtube
-		img(src=media.img)
+		iframe.vision-youtube(src=media.youtube frameborder='0' allowfullscreen)
