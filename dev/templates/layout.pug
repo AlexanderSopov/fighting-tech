@@ -14,17 +14,4 @@ html(lang="en")
       include ../../dist/js/jquery-2.2.4.min.js
       include ../../dist/js/bundle.js
   body
-    - var p = pages.Home;
-    div#logo
-      img(src=logo)
-    div.body
-      div.page-section#intro-section
-        - var section = p.sections.intro;
-        include includes/intro.pug
-    div.body
-      div.page-section#vision-section
-        - var section = p.sections.vision;
-        include includes/vision.pug
-      div.page-section#value-proposition-section
-      div.page-section#partners-section
-      div.page-section#call-to-action-section
+    block content

@@ -23,10 +23,26 @@
 						"You put on specialized shoes and gloves that track your body and enter a ring. No one's there. You put on the VR helmet.",
 						"Transported into the digital world you now spot your opponent in the opposite corner. A digital representation of someone who's geared up like you, perhaps on the other side of the world",
 						"The bell rings, you circle each other, waiting for the first strike.",
-						"When it lands, it registers as a hit, but no one is injured.", "Because you're not actually hitting each other, because you're facing digital ghosts."
+						"When it lands, it registers as a hit, but no one is injured.",
+						"That's because you're not actually hitting each other, you're both facing digital ghosts."
 					],
 					"media":[{
 						"youtube":"https://www.youtube.com/embed/0nuOiNDPpl0?ecver=1"
+					}]
+				},
+				"value":{
+					"propositions":[{
+						"title":"Third-Person View",
+						"text":"Ever wish you could watch yourself box from the same perspective that your coach has? That's exactly what you get from our system. Perform your workouts, sparr heavy and go home and view yourself from a third person view.",
+						"graphic":""
+					},{
+						"title":"Real Digital Coach",
+						"text":"Wanted to do pads but nobody was there to help you? Hitting the bags and wish someone could point out your flaws? Do you love doing combination drills and wish you could focus only on yourself",
+						"graphic":""
+					},{
+						"title":"Sparr without injuries",
+						"text":"Sometimes you need to spar really hard. Most of the times you don't. Focus on improving your movements and reflexes, setting up traps and tricking your opponent in our injury free sparring system",
+						"graphic":""
 					}]
 				},
 				"testimonial":{

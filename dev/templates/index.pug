@@ -1,2 +1,19 @@
 extends layout.pug
-
+block content
+    - var p = pages.Home;
+    div#logo
+      img(src=logo)
+    div.body
+      div.page-section#intro-section
+        - var section = p.sections.intro;
+        include includes/intro.pug
+    div.body
+      div.page-section#vision-section
+        - var section = p.sections.vision;
+        include includes/vision.pug
+    div.body
+      div.page-section#value-section
+        - var section = p.sections.value;
+        include includes/value.pug
+      div.page-section#partners-section
+      div.page-section#call-to-action-section
