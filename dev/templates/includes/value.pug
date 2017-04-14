@@ -1,3 +1,4 @@
+include snippets/angled-line.pug
 section.content
 	ul
 		for prop in section.propositions
@@ -5,6 +6,4 @@ section.content
 				h1=prop.title
 				p=prop.text
 				img(src=p.graphic)
-div.next-section
-	svg.decor(height="100%" fill="black" preserveAspectRatio="none" version="1.1" viewBox="0 0 100 100" width="100%" xmlns="http://www.w3.org/2000/svg")
-		path(d="M0 0 L100 100 L0 100" stroke-width="0")
+include snippets/arrow-down.pug

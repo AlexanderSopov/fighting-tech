@@ -45,22 +45,23 @@
 						"graphic":""
 					}]
 				},
-				"testimonial":{
+				"partners":{
 					"h1":"We love our partners",
 					"partners":[{
-						"name":"",
-						"summary":"",
+						"name":"Chalmers Venture",
 						"logo":""
-					}],
-					"media":[{
-						"youtube":"https://www.youtube.com/embed/0nuOiNDPpl0?ecver=1",
-						"img":"http://compass.xboxlive.com/assets/0f/eb/0feb7a56-f8c1-45e1-a412-a7edf8141f4e.jpg?n=Microsoft_Hololens_1200x630.jpg"
 					},{
-						"youtube":"<iframe class='vision-youtube' src='https://www.youtube.com/embed/fW0KSHOR6wI?ecver=1' frameborder='0' allowfullscreen></iframe>",
-						"img":""
+						"name":"Turnaround VR",
+						"logo":""
 					},{
-						"youtube":"<iframe class='vision-youtube' src='https://www.youtube.com/embed/n51DqCpqGSU?ecver=1' frameborder='0' allowfullscreen></iframe>",
-						"img":"https://cdn.arstechnica.net/wp-content/uploads/sites/3/2016/10/htc-vive-set.0.jpg"
+						"name":"Fully Flared",
+						"logo":""
+					},{
+						"name":"Starbreeze Studios",
+						"logo":""
+					},{
+						"name":"Liseberg",
+						"logo":""
 					}]
 				}
 			}

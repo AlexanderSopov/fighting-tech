@@ -55,6 +55,9 @@ div.body
     width 100%
     position relative
     color #fff
+.move-up
+  position relative
+  bottom 17px
 #intro-section
   height 568px
   text-align center
@@ -100,21 +103,38 @@ div.body
     width 100%
   
 #value-section
+  height 1336px
+  position relative
   section.content
     ul
       padding 30px
       width calc(100% - 60px)
       li
         width 100%
+  div.next-section
+    position absolute
+    height 50px
+    width 100%
+  div.next-section:nth-child(1)
+    top 0px
+  div.next-section:nth-child(3)
+    top calc(100% - 50px)
 
-#about-section 
-  background-color #252128
+#partners-section 
+  background-color #6610a5
+  div.next-section
+    position absolute
+    top 0px
+    height 50px
+  section.content
+    padding 30px
+  
 
 #contact-section 
   background-color #000
 
 
-#intro-section
+#intro-section, #value-section
   background url("img/bg-0/md.jpg") no-repeat fixed
 
 

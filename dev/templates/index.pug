@@ -11,9 +11,15 @@ block content
       div.page-section#vision-section
         - var section = p.sections.vision;
         include includes/vision.pug
-    div.body
+    div.body.move-up
       div.page-section#value-section
         - var section = p.sections.value;
         include includes/value.pug
+    div.body.move-up
       div.page-section#partners-section
+        - var section = p.sections.partners;
+        include includes/partners.pug
+    div.body
       div.page-section#call-to-action-section
+        - var section = p.sections.callToAction;
+        include includes/call-to-action.pug
