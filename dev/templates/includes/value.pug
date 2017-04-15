@@ -1,9 +1,10 @@
-include snippets/angled-line.pug
 section.content
 	ul
 		for prop in section.propositions
 			li
-				h1=prop.title
-				p=prop.text
-				img(src=p.graphic)
+				div.prop-img
+					img(src=prop.graphic alt=prop.title+" image")
+				div
+					h1=prop.title
+					p=prop.text
 include snippets/arrow-down.pug
