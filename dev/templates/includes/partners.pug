@@ -1,5 +1,11 @@
 section.content
 	h3=section.h1
-	for partner in section.partners
-		img(src=partner.logo)
-		h2=partner.name
+	div.partners-logo-container
+		div.partners-premium
+			for partner in section.partners.premium
+				div
+					img(src=partner.logo alt=partner.name)
+		div.partners-favorite
+			for partner in section.partners.favorites
+				div
+					img(src=partner.logo alt=partner.name)

@@ -50,22 +50,28 @@
 				},
 				"partners":{
 					"h1":"We love our partners",
-					"partners":[{
-						"name":"Chalmers Venture",
-						"logo":""
-					},{
-						"name":"Turnaround VR",
-						"logo":""
-					},{
-						"name":"Fully Flared",
-						"logo":""
-					},{
-						"name":"Starbreeze Studios",
-						"logo":""
-					},{
-						"name":"Liseberg",
-						"logo":""
-					}]
+					"partners":{
+
+						"premium":[{
+							"name":"Chalmers Venture",
+							"logo":"http://placehold.it/75x75"
+						},{
+							"name":"Turnaround VR",
+							"logo":"http://placehold.it/75x75"
+						}],
+
+						"favorites":[{
+							"name":"Fully Flared",
+							"logo":"http://placehold.it/75x75"
+						},{
+							"name":"Starbreeze Studios",
+							"logo":"http://placehold.it/75x75"
+						},{
+							"name":"Liseberg",
+							"logo":"http://placehold.it/75x75"
+						}]
+						
+					}
 				}
 			}
 		}
