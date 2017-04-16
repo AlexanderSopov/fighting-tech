@@ -1,8 +1,6 @@
 extends layout.pug
 block content
     - var p = pages.Home;
-    div#logo
-      img(src=logo)
     div.body
       div.page-section#intro-section
         - var section = p.sections.intro;
@@ -23,3 +21,7 @@ block content
       div.page-section#call-to-action-section
         - var section = p.sections.callToAction;
         include includes/call-to-action.pug
+    div.body
+      div.page-section#about-us-section
+        - var section = p.sections.about;
+        include includes/about-us.pug

@@ -13,11 +13,15 @@
 			"filename":"index",
 			"sections":{
 				"intro":{
+					"id":"#intro-section",
+					"tag": "Start",
 					"h1": "Real Virtual Fighting",
 					"caption": "Perfect your technique. Sparr without injuries. Experience real fighting.",
 					"callToAction":"Learn more"
 				},
 				"vision":{
+					"id":"#vision-section",
+					"tag": "Our Vision",
 					"h1": "Fighting a Ghost",
 					"copy": [
 						"You put on your VR helmet and enter the virtual ring.",
@@ -31,6 +35,8 @@
 					}]
 				},
 				"value":{
+					"id":"#value-section",
+					"tag": "The Value You Get",
 					"propositions":[{
 						"id":"prop-1",
 						"title":"A Coach's Perspective",
@@ -49,29 +55,39 @@
 					}]
 				},
 				"partners":{
+					"id":"#partners-section",
+					"tag": "Our Partners",
 					"h1":"We love our partners",
 					"partners":{
 
 						"premium":[{
 							"name":"Chalmers Venture",
-							"logo":"http://placehold.it/75x75"
+							"logo":"http://placehold.it/150x150"
 						},{
 							"name":"Turnaround VR",
-							"logo":"http://placehold.it/75x75"
+							"logo":"http://placehold.it/150x150"
 						}],
 
 						"favorites":[{
 							"name":"Fully Flared",
-							"logo":"http://placehold.it/75x75"
+							"logo":"http://placehold.it/150x150"
 						},{
 							"name":"Starbreeze Studios",
-							"logo":"http://placehold.it/75x75"
+							"logo":"http://placehold.it/150x150"
 						},{
 							"name":"Liseberg",
-							"logo":"http://placehold.it/75x75"
+							"logo":"http://placehold.it/150x150"
 						}]
 						
 					}
+				},
+				"callToAction":{
+					"id":"#call-to-action-section",
+					"tag": "Get In Touch"
+				},
+				"about":{
+					"id":"#about-us-section",
+					"tag": "About Us"
 				}
 			}
 		}

@@ -8,10 +8,13 @@ html(lang="en")
     block titleAndKeywords
       title=meta.title
       meta(name="keywords", content=meta.keywords)
+    link(href="https://fonts.googleapis.com/css?family=Quicksand:300,500" rel="stylesheet")
     style 
       include ../../dist/css/style.css
     script
       include ../../dist/js/jquery-2.2.4.min.js
       include ../../dist/js/bundle.js
   body
+    include includes/header.pug
     block content
+    include includes/footer.pug

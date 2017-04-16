@@ -1,7 +1,13 @@
-p
-	strong Isolerteknik AB
-	| , Box 34, 444 21 Stenungsund | Telefon: 0303-849 75 | Fax: 0303-888 42 | 
-	a(href="mailto:info@isolerteknik.se") info@isolerteknik.se
-p.developer
-	| Developed and maintained by 
-	a(href="https://alexandersopov.github.io") Teddy Publisher
+section.content
+	div#footer-contact
+		p Hej
+	div#footer-social-media
+		img(src="http://placehold.it/50x50")
+	div#footer-menu
+		h2 MENU
+		- var sections = pages.Home.sections;
+		for s in sections
+			a(onClick="moveTo("+s.id+");")=s.tag
+	p.developer
+		| Developed and maintained by 
+		a(href="https://alexandersopov.github.io") Teddy Publisher
