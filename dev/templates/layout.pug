@@ -15,6 +15,7 @@ html(lang="en")
       include ../../dist/js/jquery-2.2.4.min.js
       include ../../dist/js/bundle.js
   body
-    include includes/header.pug
-    block content
-    include includes/footer.pug
+    div.body-container
+      include includes/header.pug
+      block content
+      include includes/footer.pug
