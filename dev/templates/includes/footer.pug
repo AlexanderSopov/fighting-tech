@@ -1,13 +1,15 @@
-section.content
-	div#footer-contact
-		p Hej
-	div#footer-social-media
-		img(src="http://placehold.it/50x50")
-	div#footer-menu
-		h2 MENU
-		- var sections = pages.Home.sections;
-		for s in sections
-			a(onClick="moveTo("+s.id+");")=s.tag
-	p.developer
-		| Developed and maintained by 
-		a(href="https://alexandersopov.github.io") Teddy Publisher
+div.body
+	div.page-section#footer-section
+		section.content
+			div#footer-contact
+				p Hej
+			div#footer-social-media
+				img(src="http://placehold.it/50x50")
+			div#footer-menu
+				h2 MENU
+				- var sections = pages.Home.sections;
+				for s in sections
+					a(onClick="moveTo("+s.id+");")=s.tag
+			p.developer
+				| Developed and maintained by 
+				a(href="https://alexandersopov.github.io") Teddy Publisher
