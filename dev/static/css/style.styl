@@ -1,5 +1,4 @@
-*
-  background-color rgba(0,0,0,0)
+
 body 
   margin 0px
   padding 0px
@@ -150,8 +149,19 @@ div.body
   
 #call-to-action-section
   section.content
-    input
-      display block
+    form
+      fieldset
+        display block
+        border none
+        padding 10px 0 10px 0
+        input
+          background-color rgba(0,0,0,0)
+          color white
+          padding 10px
+      fieldset.text-input
+        input
+          display block
+          width calc(100% - 20px)
   div.next-section
     display block
     width 100%

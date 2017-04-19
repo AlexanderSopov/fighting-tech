@@ -1,16 +1,22 @@
 section.content
 	form(action="" method="get")
-		label(for="name") Name*:
-		input(type="text" name="firstName")
-		label(for="corporation") Corporation:
-		input(type="text" name="corporation")
-		label(for="email") Email Adress:
-		input(type="text" name="email")
+		fieldset.text-input
+			label(for="name") Name*:
+			input(type="text" name="firstName")
+		fieldset.text-input
+			label(for="corporation") Corporation:
+			input(type="text" name="corporation")
+		fieldset.text-input
+			label(for="email") Email Adress:
+			input(type="text" name="email")
 		p Area of Interest:
-		input(type="checkbox" name="cooperation" label="heeeej")
-		input(type="checkbox" name="job")
-		label(for="job") I'm looking for a job
-		input(type="checkbox" name="cooperation")
-		label(for="cooperation") I want to know more about your product and try it out
+		fieldset
+			input(type="checkbox" name="job")
+			label(for="job") I'm looking for a job
+		fieldset
+			input(type="checkbox" name="cooperation")
+			label(for="cooperation") I want to know more about your product and try it out
+		fieldset
+			input(type="button" value="Send")
 - var nextColor = "rgba(255,0,0,0.8)";
 include snippets/arrow-down.pug
