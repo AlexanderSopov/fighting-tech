@@ -1,3 +1,9 @@
 section.content
 	h1 About us
+	br
+	for content in section.content
+		h2=content.tag
+		for p in content.p
+			p=p
+		br
 include snippets/angled-line.pug

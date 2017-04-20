@@ -11,11 +11,14 @@ section.content
 			input(type="text" name="email")
 		p Area of Interest:
 		fieldset
-			input(type="checkbox" name="job")
-			label(for="job") I'm looking for a job
-		fieldset
-			input(type="checkbox" name="cooperation")
-			label(for="cooperation") I want to know more about your product and try it out
+			input(type="radio" name="purpose" value="information")
+			| I want more information about the app
+			br
+			input(type="radio" name="purpose" value="work")
+			| I want to work for Fighting Tech
+			br
+			input(type="radio" name="purpose" value="investments")
+			| I'm looking for investments opportunities
 		fieldset
 			input(type="button" value="Send")
 - var nextColor = "rgba(255,0,0,0.8)";

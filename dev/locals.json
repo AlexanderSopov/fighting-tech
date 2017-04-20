@@ -87,7 +87,25 @@
 				},
 				"about":{
 					"id":"#about-us-section",
-					"tag": "About Us"
+					"tag": "About Us",
+					"content":[{
+						"tag":"The Product",
+						"p":[
+							"The passion for our Fighting Simulator comes from our lifelong interest in Martial Arts.",
+							"The idea formed when we tried out some of the entertaining fighting games available for consumer-grade VR and we quickly saw the potential of building something of true value for professional and aspiring fighters using specialized equipment.",
+							"Being founded by a former elite fighter himself, we understand the attitudes around health issues in the fighting scene - and the dire repercussions of ignoring them."
+						]
+					},{
+						"tag":"The Company",
+						"p":[
+							"It basically started on a napkin. Alexander played a boxing game in VR and grabbed the closest thing to a notebook and started jotting down all of his ideas.",
+							"The idea grew, he partnered up with Jakob and together they entered Chalmers Venture Startup Camp.",
+							"After 5 intensive weeks of customer validation, the company was accepted into the accelerator and the rest is - as is so often said - history."
+						]
+					},{
+						"tag":"The Founders",
+						"p":["Alexander", "Jakob"]
+					}]
 				}
 			}
 		}
