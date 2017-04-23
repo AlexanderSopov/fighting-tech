@@ -21,7 +21,7 @@ var utils	= require('./lib/utils.js'),
 	stylus = {
 		srcPath: "./dev/static/css/style.styl",
 		destPath:"./dist/css/style.css",
-		options: {compress:true}
+		options: {compress:true, filename:"./dev/static/css/style.styl"}
 	}
 
 

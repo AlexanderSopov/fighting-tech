@@ -5,7 +5,7 @@
 		"description":"Virtual Fighting",
 		"keywords": "Fighting, Boxing, VR, Virtual-Reality, Virtual Reality, MMA, Kick Boxing"
 	},
-	"logo":"img/Fighting_white.png",
+	"logo":"img/logo2.png",
 	"pages":{
 		"Home":{
 			"name":"Home",
@@ -40,17 +40,17 @@
 					"propositions":[{
 						"id":"prop-1",
 						"title":"A Coach's Perspective",
-						"text":"Your coach knows you best because he sees you from every angle. Stop recording yourself in 2D and enter the virtual 3D space and gain the same perspective as your coach!",
+						"text":"Your coach knows you best because he sees you from every angle. Enter the Virtual 3D Space and see yourself the way your coach does.",
 						"graphic":"http://placehold.it/150x150"
 					},{
 						"id":"prop-2",
 						"title":"Training Simulator",
-						"text":"Wanted to do pads but nobody had time to help? Gain access to a virtual coach any time you want.",
+						"text":"Wanted to do pads but nobody had time to help? Tired of keeping track of your progress? Switch to our training simulator and focus only on improving - whenever you want.",
 						"graphic":"http://placehold.it/150x150"
 					},{
 						"id":"prop-3",
 						"title":"Sparr without injuries",
-						"text":"Forget about avoiding damage and focus only on improving your movements, reflexes and perfecting your skills.",
+						"text":"Beyond the obvious health benefits, sparring in VR allows you to relax in the heat of battle and focus on mastering your reflexes.",
 						"graphic":"http://placehold.it/150x150"
 					}]
 				},
@@ -92,15 +92,15 @@
 						"tag":"The Product",
 						"p":[
 							"The passion for our Fighting Simulator comes from our lifelong interest in Martial Arts.",
-							"The idea formed when we tried out some of the entertaining fighting games available for consumer-grade VR and we quickly saw the potential of building something of true value for professional and aspiring fighters using specialized equipment.",
-							"Being founded by a former elite fighter himself, we understand the attitudes around health issues in the fighting scene - and the dire repercussions of ignoring them."
-						]
+							"it started whn we tried some of the entertaining boxing games available for consumer-grade VR. We quickly saw the potential to build something of true value for professional fighters.",
+							"We started prototyping and the response from fighters has been nothing short of breathtaking."
+							]
 					},{
 						"tag":"The Company",
 						"p":[
-							"It basically started on a napkin. Alexander played a boxing game in VR and grabbed the closest thing to a notebook and started jotting down all of his ideas.",
-							"The idea grew, he partnered up with Jakob and together they entered Chalmers Venture Startup Camp.",
-							"After 5 intensive weeks of customer validation, the company was accepted into the accelerator and the rest is - as is so often said - history."
+							"Being founded by a former elite boxer, Fighting Tech understands what makes fighters great and how to help them improve even further.",
+							"We believe in the cross section of ideas, where technology is married to an understanding of the problems it aims to solve.",
+							"As such, our team consists of people with backgrounds in sports, no matter their title."
 						]
 					},{
 						"tag":"The Founders",
