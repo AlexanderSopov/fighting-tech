@@ -100,33 +100,43 @@
 						"tag":"The Founders",
 						"p":["Alexander", "Jakob"]
 					}]
-				},
-				"footer":{
-					"Contact":{
-						"adress":"Virvelvindsgatan 8",
-						"postal":"417 02 Göteborg",
-						"mail":"fightingtech1@gmail.com",
-						"phone":"+46 (0) 707 589 600",
-						"org_nr":"900106-3537"
-					},
-					"social_media":[{
-						"tag":"facebook",
-						"link":"http://fb.me/FightingTech",
-						"graphic":""
-					},{
-						"tag":"instagram",
-						"link":"https://instagram.com/fightingtech",
-						"graphic":""
-					},{
-						"tag":"twitter",
-						"link":"",
-						"graphic":""
-					}],
-					"credits":[{
-
-					}]
 				}
 			}
 		}
+	},
+	"footer":{
+		"contact":{
+			"adress":"Virvelvindsgatan 8",
+			"postal":"417 02 Göteborg",
+			"mail":"fightingtech1@gmail.com",
+			"phone":"+46 (0) 707 589 600",
+			"org_nr":"900106-3537"
+		},
+		"social_media":[{
+			"tag":"facebook",
+			"link":"http://fb.me/FightingTech",
+			"graphic":"img/facebook-logo-button.svg"
+		},{
+			"tag":"instagram",
+			"link":"https://instagram.com/fightingtech",
+			"graphic":"img/instagram-logo.svg"
+		},{
+			"tag":"twitter",
+			"link":"http://twitter.com/FightingTech",
+			"graphic":"img/twitter-logo-button.svg"
+		}],
+		"credits":[{
+			"tag":"Developed by ",
+			"link":{
+				"url":"https://alexandersopov.github.io",
+				"text":"Alexander Sopov"
+			}
+		},{
+			"tag":"Social Media Icons made by ",
+			"link":{
+				"url":"http://www.flaticon.com/authors/bogdan-rosu",
+				"text":"Bogdan Rosu"
+			}
+		}]
 	}
 }

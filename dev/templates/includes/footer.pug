@@ -2,14 +2,23 @@ div.body
 	div.page-section#footer-section
 		section.content
 			div#footer-contact
-				p Hej
+				h2 Contact Us
+				p=footer.contact.adress
+				p=footer.contact.postal
+				br
+				p="Mail: "+footer.contact.mail
+				p="Phone: "+footer.contact.phone
+				p="Org nr: " + footer.contact.org_nr
 			div#footer-social-media
-				img(src="http://placehold.it/50x50")
-			div#footer-menu
-				h2 MENU
-				- var sections = pages.Home.sections;
-				for s in sections
-					a(onClick="moveTo("+s.id+");")=s.tag
-			p.developer
-				| Developed and maintained by 
-				a(href="https://alexandersopov.github.io") Teddy Publisher
+				for sm in footer.social_media
+					a(href=sm.link)
+						img(src=sm.graphic alt=sm.tag+" logo")
+			//- div#footer-menu
+			//- 	h2 MENU
+			//- 	- var sections = pages.Home.sections;
+			//- 	for s in sections
+			//- 		a(onClick="moveTo("+s.id+");")=s.tag
+			div#footer-credits
+			for credit in footer.credits
+				p.developer=credit.tag
+					a(href=credit.link.url)=credit.link.text
