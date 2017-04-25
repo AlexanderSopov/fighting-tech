@@ -41,17 +41,17 @@
 						"id":"prop-1",
 						"title":"A Coach's Perspective",
 						"text":"Your coach knows you best because he sees you from every angle. Enter the Virtual 3D Space and see yourself the way your coach does.",
-						"graphic":"http://placehold.it/150x150"
+						"graphic":"img/perspective.svg"
 					},{
 						"id":"prop-2",
 						"title":"Training Simulator",
 						"text":"Wanted to do pads but nobody had time to help? Tired of keeping track of your progress? Switch to our training simulator and focus only on improving - whenever you want.",
-						"graphic":"http://placehold.it/150x150"
+						"graphic":"img/simulation.svg"
 					},{
 						"id":"prop-3",
 						"title":"Sparr without injuries",
 						"text":"Beyond the obvious health benefits, sparring in VR allows you to relax in the heat of battle and focus on mastering your reflexes.",
-						"graphic":"http://placehold.it/150x150"
+						"graphic":"img/injury.svg"
 					}]
 				},
 				"partners":{
@@ -61,22 +61,16 @@
 					"partners":{
 
 						"premium":[{
-							"name":"Chalmers Venture",
-							"logo":"http://placehold.it/150x150"
+							"name":"New Sweden Boxing Academy",
+							"logo":"img/newswedenbox.png"
 						},{
 							"name":"Turnaround VR",
-							"logo":"http://placehold.it/150x150"
+							"logo":"img/TurnAround_VR_Logo.png"
 						}],
 
 						"favorites":[{
-							"name":"Fully Flared",
-							"logo":"http://placehold.it/150x150"
-						},{
-							"name":"Starbreeze Studios",
-							"logo":"http://placehold.it/150x150"
-						},{
-							"name":"Liseberg",
-							"logo":"http://placehold.it/150x150"
+							"name":"Chalmers Venture",
+							"logo":"img/chalmers_ventures.png"
 						}]
 						
 					}
@@ -105,6 +99,31 @@
 					},{
 						"tag":"The Founders",
 						"p":["Alexander", "Jakob"]
+					}]
+				},
+				"footer":{
+					"Contact":{
+						"adress":"Virvelvindsgatan 8",
+						"postal":"417 02 Göteborg",
+						"mail":"fightingtech1@gmail.com",
+						"phone":"+46 (0) 707 589 600",
+						"org_nr":"900106-3537"
+					},
+					"social_media":[{
+						"tag":"facebook",
+						"link":"http://fb.me/FightingTech",
+						"graphic":""
+					},{
+						"tag":"instagram",
+						"link":"https://instagram.com/fightingtech",
+						"graphic":""
+					},{
+						"tag":"twitter",
+						"link":"",
+						"graphic":""
+					}],
+					"credits":[{
+
 					}]
 				}
 			}
