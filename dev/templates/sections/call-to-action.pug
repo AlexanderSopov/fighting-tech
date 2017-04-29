@@ -1,25 +1,22 @@
 section.content
-	form(action="" method="get")
-		fieldset.text-input
+	form
+		fieldset(name="contact").text-input
 			label(for="name") Name*:
-			input(type="text" name="firstName")
-		fieldset.text-input
+			input(type="text" name="name")
+			label(for="email") Email Adress*:
+			input(type="text" name="email")
+			label(for="phone") Phone Number:
+			input(type="text" name="phone")
 			label(for="corporation") Corporation:
 			input(type="text" name="corporation")
-		fieldset.text-input
-			label(for="email") Email Adress:
-			input(type="text" name="email")
 		p Area of Interest:
-		fieldset
-			input(type="radio" name="purpose" value="information")
-			| I want more information
+		fieldset(name="area-of-interest")
+			input(type="radio" checked name="purpose" value="information")
+			label(for="information") I want to try The Fighting Simulator
 			br
 			input(type="radio" name="purpose" value="work")
-			| I'm looking for a job
-			br
-			input(type="radio" name="purpose" value="investments")
-			| I'd love to invest
+			label(for="work") I want to get in touch
 		fieldset
-			input(type="button" value="Send")
+			input(type="button" onclick="script.post();" value="Send")
 - var nextColor = "rgba(255,0,0,0.8)";
 include snippets/arrow-down.pug

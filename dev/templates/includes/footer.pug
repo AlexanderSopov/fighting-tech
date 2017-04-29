@@ -12,7 +12,7 @@ div.body
 			div#footer-social-media
 				for sm in footer.social_media
 					a(href=sm.link)
-						img(src=sm.graphic alt=sm.tag+" logo")
+						div!=sm.graphic
 			//- div#footer-menu
 			//- 	h2 MENU
 			//- 	- var sections = pages.Home.sections;
