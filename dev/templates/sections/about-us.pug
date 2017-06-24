@@ -6,4 +6,8 @@ section.content
 		for p in content.p
 			p=p
 		br
+	h2=section.founders.tag
+	for p in section.founders.p
+		p
+			a(href=p.linkedin)=p.name
 include snippets/angled-line.pug

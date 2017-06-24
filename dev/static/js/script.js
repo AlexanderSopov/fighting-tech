@@ -23,7 +23,7 @@ module.exports = (function(){
 		for (var i=0; i<formData.length;i++)
 			data[formData[i].name] = formData[i].value;
 		
-		data.fingerprint	= client.getFingerprint();
+		data.fingerprint	= JSON.stringify(client.getFingerprint());
 		data.metadata 		= metadata;
 		if(requestbodyIsComplete(data))
 			sendRequest();
@@ -47,13 +47,12 @@ module.exports = (function(){
 	}
 	function getMetadata(){
 		var metadata = {};
-		metadata.name			= "metadata";
 		metadata.resolution		= client.getCurrentResolution();
-		metadata.os				= client.getOS();
-		metadata.browser		= client.getBrowser();
-		metadata.isMobile		= client.isMobile();
-		metadata.timeZone		= client.getTimeZone();
-		metadata.language		= client.getLanguage();
+		metadata.os						= client.getOS();
+		metadata.browser			= client.getBrowser();
+		metadata.isMobile			= client.isMobile();
+		metadata.timeZone			= client.getTimeZone();
+		metadata.language			= client.getLanguage();
 		return metadata;
 	}
 	function requestbodyIsComplete(data){

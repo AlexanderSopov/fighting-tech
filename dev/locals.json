@@ -82,23 +82,30 @@
 					"id":"#about-us-section",
 					"tag": "About Us",
 					"content":[{
-						"tag":"The Product",
-						"p":[
-							"The passion for our Fighting Simulator comes from our lifelong interest in Martial Arts.",
-							"It started when we tried some of the entertaining boxing games available for consumer-grade VR. We quickly saw the potential to build something of true value for professional fighters.",
-							"And so we started prototyping and the response from fighters has been nothing short of breathtaking."
+							"tag":"The Product",
+							"p":[
+								"The passion for our Fighting Simulator comes from our lifelong interest in Martial Arts.",
+								"It started when we tried some of the entertaining boxing games available for consumer-grade VR. We quickly saw the potential to build something of true value for professional fighters.",
+								"And so we started prototyping and the response from fighters has been nothing short of breathtaking."
+								]
+						},{
+							"tag":"The Company",
+							"p":[
+								"Being founded by a former elite boxer, Fighting Tech understands what makes fighters great and how to help them improve even further.",
+								"We believe in the cross section of ideas, where technology is married to an understanding of the problems it aims to solve.",
+								"As such, our team consists of people with backgrounds in sports, no matter their title."
 							]
-					},{
-						"tag":"The Company",
-						"p":[
-							"Being founded by a former elite boxer, Fighting Tech understands what makes fighters great and how to help them improve even further.",
-							"We believe in the cross section of ideas, where technology is married to an understanding of the problems it aims to solve.",
-							"As such, our team consists of people with backgrounds in sports, no matter their title."
-						]
-					},{
+					}],
+					"founders":{
 						"tag":"The Founders",
-						"p":["Alexander", "Jakob"]
-					}]
+						"p":[{
+							"name":"Alexander",
+							"linkedin":"https://www.linkedin.com/in/alexander-sopov-bb390810a/"
+						},{
+							"name": "Jakob",
+							"linkedin":"https://se.linkedin.com/in/jakob-tilhon-0406b07a"
+						}]
+					}
 				}
 			}
 		}
